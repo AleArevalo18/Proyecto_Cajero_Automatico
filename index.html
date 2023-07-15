@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Cajero</title>
+</head>
+<body>
+
+
+
+        <header class="main-menu">
+            <div class="container-menu">
+                <div class="content-img">
+                    <img src="img/bank.png" alt="" srcset="">
+                    <h1>ALEJABANK </h1>
+                </div>
+                
+                <nav>
+                    <ul class="nav-main">
+                        <li class="nav-button"><img src="img/home.png " class="img-btn-nav" alt="" srcset=""><button class="btn btn-warning btn-nav-main">Home</button></li>
+                        <li class="nav-button"><img src="img/question.png " class="img-btn-nav" alt="" srcset=""><button class="btn btn-warning btn-nav-main">Ayuda</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+       
+        <main>
+            <section class="container-main-body">
+                <h2>Seleccione su cuenta</h2>
+    
+                <div class="container-ingreso">
+                    <ul>
+                        <li>
+                            <button id="mali" class="btn btn-warning btn-mali" onclick="capturaTextMali()">Mali</button>
+                        </li>
+                        <li>
+                            <button id="gera" class="btn btn-warning btn-gera" onclick="capturaTextGera()">Gera</button>
+                        </li>
+                        <li>
+                            <button id="maui" class="btn btn-warning btn-maui" onclick="capturaTextMaui()">Maui</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    
+    
+        <footer>
+
+            <div class="container-footer">
+
+                <p>Desarrolladora: Mary Alejandra Arévalo Espinosa</p>
+
+                <div class="container-contact">
+                    <ul>
+                        <li><img src="img/github.png" alt="" class="icon-contact"></li>
+                        <li><img src="img/linkedin.png" alt="" class="icon-contact"></li>
+                        <li><img src="img/whatsapp.png" alt="" class="icon-contact"></li>
+                    </ul>
+                    
+                    
+                </div>
+
+            </div>
+
+    
+        </footer>
+
+    
+
+
+    
+    <script src="cajero.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
